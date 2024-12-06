@@ -1,0 +1,21 @@
+
+.home-body {
+    background-image: url('/src/images/mountain-nature-scenery-wallpaper-3840x2160_54.jpg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
+    color: #131313; /* Set default text color */
+    line-height: 1.6; /* Set line height for better readability */
+    background-color: #0b0808; /* Set background color to light gray */
+    font-size: 50px; /* Set a default font-size */
+    padding-top:150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    font-weight: bold;
+  
+}
+
+

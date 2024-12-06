@@ -1,0 +1,31 @@
+.about-body {
+
+    background-image: url('/src/images/d7b1470de4cd37062436be608e52cb6e.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
+    color: #171717; /* Set default text color */
+    line-height: 1.6; /* Set line height for better readability */
+    background-color: #5e548e; /* Set background color to light gray */
+    font-size: 20px; /* Set a default font-size */
+    padding-top:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 150vh;
+  
+  }
+  
+  .about {
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 400%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .me {
+    font-family: "Twinkle Star", cursive;
+    font-size: 130%;
+    text-align: center;
+  }
