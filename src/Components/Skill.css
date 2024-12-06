@@ -1,0 +1,97 @@
+.skills-body {
+    background-image: url('/src/images/City.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
+    color: #141414; /* Set default text color */
+    line-height: 1.6; /* Set line height for better readability */
+    background-color: #584d81; /* Set background color to light gray */
+    font-size: 20px; /* Set a default font-size */
+    padding-top:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 100vh;
+  
+  }
+  
+  .skills {
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 400%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: flex-end;
+  }
+  
+  
+  .html {
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius: 10%;
+    margin-inline-start: 3rem;
+    margin-bottom: 3rem;
+    }
+  
+    .html:hover {
+      transform: scale(1.1); /* Scale up the logo on hover */
+    }
+  
+   .CSS {
+   float:left;
+   height:100px;
+   width:100px;
+   border-radius: 10%;
+   margin-inline-start: 3rem;
+   margin-bottom: 3rem;
+   }
+  
+   .CSS:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+  }
+  
+   .Tailwind {
+   float:left;
+   height:100px;
+   width:100px;
+   border-radius: 10%;
+   margin-inline-start: 3rem;
+   margin-bottom: 3rem;
+   }
+  
+   .Tailwind:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+  }
+   
+   .Figma {
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius: 10%;
+    margin-inline-start: 3rem;
+    margin-bottom: 3rem;
+    }
+  
+    .Figma:hover {
+      transform: scale(1.1); /* Scale up the logo on hover */
+    }
+
+    .Canva {
+        float:left;
+        height:100px;
+        width:100px;
+        border-radius: 10%;
+        margin-inline-start: 3rem;
+        margin-bottom: 3rem;
+        }
+      
+        .Canva:hover {
+          transform: scale(1.1); /* Scale up the logo on hover */
+        }
+    
