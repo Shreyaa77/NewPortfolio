@@ -25,15 +25,11 @@ function Skills() {
           </p>
 
           <p>
-            <img
-              className="Tailwind"
-              src={sk3}
-            ></img>
+            <img className="Tailwind" src={sk3}></img>
           </p>
-</div>
+        </div>
 
-          <div className="image-container">
-        
+        <div className="image-container">
           <p>
             <img className="Figma" src={sk4}></img>
           </p>
@@ -41,11 +37,10 @@ function Skills() {
           <p>
             <img className="Canva" src={sk5}></img>
           </p>
-
         </div>
       </section>
 
-     <Footer/>
+      <Footer />
     </>
   );
 }

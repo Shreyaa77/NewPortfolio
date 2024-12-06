@@ -38,8 +38,8 @@ const Navbar = () => {
 
             {isDropdownOpen && (
               <ul className="dropdown-menu absolute top-full left-0 bg-white shadow-lg rounded">
-                <li><a href="/photogallery" className="block px-3 ">Photo Gallery</a></li>
-                <li><a href="/videogallery" className="block px-3 ">Video Gallery</a></li>
+                <li><a href="/photogallery" className="block px-3 text-center"> Photo Gallery</a></li>
+                <li><a href="/videogallery" className="block px-3 text-center"> Video Gallery</a></li>
               </ul>
             )}
           </li>

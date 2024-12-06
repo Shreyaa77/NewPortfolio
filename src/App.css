@@ -1,6 +1,5 @@
 /* Body Styles */
 
-
 /* Navbar Styles */
 .header {
   background-color: #926efd;
@@ -44,14 +43,9 @@
   text-decoration: underline;
 }
 
-
 .dropdown-menu {
   min-width: 100px;
   border: 1px solid #cb8ffa;
-}
-
-.dropdown-menu {
-  font-size: 20px;
 }
 
 .dropdown-toggle {
@@ -61,9 +55,7 @@
   font-weight: bold;
   font-size: 25px;
   transition: color 0.3s ease;
-
 }
-
 
 /* Footer Styles */
 

@@ -1,42 +1,39 @@
 .VideoGallery-body {
+  background-image: url("/src/images/background-abstract-template-banner-with-gradient-color-design-with-liquid-shape-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Set default font family */
+  color: #171717; /* Set default text color */
+  line-height: 1.6; /* Set line height for better readability */
+  background-color: #574e77; /* Set background color to light gray */
+  font-size: 20px; /* Set a default font-size */
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 200vh;
+}
+.VideoGallery {
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 350%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-    background-image: url('/src/images/background-abstract-template-banner-with-gradient-color-design-with-liquid-shape-free-vector.jpg');
-    background-size: cover;
-    background-position: center;
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
-    color: #171717; /* Set default text color */
-    line-height: 1.6; /* Set line height for better readability */
-    background-color: #574e77; /* Set background color to light gray */
-    font-size: 20px; /* Set a default font-size */
-    padding-top:100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    min-height: 200vh;
-  
-   }
-   .VideoGallery {
-    font-family: "Delius Swash Caps", cursive;
-    font-size: 350%;
-    font-weight: bold;
-    text-align: center;
-   text-decoration: underline;
-   padding-top: 20px;
-   padding-bottom: 20px;
-  }
-  
-   .VideoContainer {
-    display:flex;
-    align-content:center;
-    align-items:center;
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
-    padding:4%;
-   }
-  
-   .vstory { 
-   font-size:25px;
-   font-family: "Twinkle Star", cursive;
-   text-align: center;
-    }
-  
+.VideoContainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 4%;
+}
+
+.vstory {
+  font-size: 25px;
+  font-family: "Twinkle Star", cursive;
+  text-align: center;
+}
