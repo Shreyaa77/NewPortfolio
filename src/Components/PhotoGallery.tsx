@@ -1,16 +1,16 @@
-import "../Components/Blog.css";
+import "../Components/PhotoGallery.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import headshot from "./../images/Business type Headshot.jpg";
 import aes from "./../images/Aesthetic Photo.jpg";
 import pass from "./../images/Photo showing passion.jpg";
-function Blog() {
+function PhotoGallery() {
   return (
     <>
       <Navbar />
 
-      <section id="Blog" className="blog-body">
-        <h2 className="blog">Blog</h2>
+      <section id="PhotoGallery" className="PhotoGallery-body">
+        <h2 className="PhotoGallery">Photo Gallery</h2>
         <div>
           <p>
             <img
@@ -61,4 +61,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default PhotoGallery;

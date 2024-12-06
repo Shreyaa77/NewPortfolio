@@ -44,24 +44,24 @@
   text-decoration: underline;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
+
+.dropdown-menu {
+  min-width: 100px;
+  border: 1px solid #cb8ffa;
 }
 
 .dropdown-menu {
-  min-width: 150px;
-  border: 1px solid #e0e0e0;
+  font-size: 20px;
 }
 
 .dropdown-toggle {
   cursor: pointer;
-  padding: 10px;
-  background-color: transparent;
-  border: none;
-  font-size: 1rem;
   color: inherit;
+  color: #241919;
+  font-weight: bold;
+  font-size: 25px;
+  transition: color 0.3s ease;
+
 }
 
 
@@ -71,7 +71,7 @@
   text-align: center;
   padding: 1rem;
   background-color: #282c34;
-  color: white;
+  color: rgb(255, 255, 255);
   bottom: 0;
   width: 100%;
 }

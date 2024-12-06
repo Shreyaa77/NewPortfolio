@@ -26,12 +26,20 @@ const Navbar = () => {
               className="dropdown-toggle" 
               onClick={toggleDropdown}
             >
-              Blog
+              <span>Blog</span>
+              <span 
+                className={`transform transition-transform duration-300 ${
+                  isDropdownOpen ? "rotate-180" : "rotate-0"
+                }`}
+              >
+                ▼
+              </span>
             </button>
+
             {isDropdownOpen && (
               <ul className="dropdown-menu absolute top-full left-0 bg-white shadow-lg rounded">
-                <li><a href="/blog/page1" className="block px-4 py-2 hover:bg-gray-100">Page 1</a></li>
-                <li><a href="/blog/page2" className="block px-4 py-2 hover:bg-gray-100">Page 2</a></li>
+                <li><a href="/photogallery" className="block px-3 ">Photo Gallery</a></li>
+                <li><a href="/videogallery" className="block px-3 ">Video Gallery</a></li>
               </ul>
             )}
           </li>
